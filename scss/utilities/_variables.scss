@@ -1,0 +1,37 @@
+// ===========================//
+//          Variables        //   
+// =========================//
+
+
+// Font Stacks
+
+$primary-font           : 'Lato', sans-serif;
+
+
+// Layout
+$max: 100%;
+
+
+// Font Weights
+$font-weight-light          : 300;
+$font-weight-regular        : 500;
+$font-weight-bold           : 700;
+
+
+// Base Colors
+$white          : #fff;
+$gray           : #777;
+$gray-light     : lighten($gray, 35%);
+
+$primary-color          : #58e1c1;
+$secondary-color        : #82e8d2;
+
+$cyan           : #51ddfc;
+$pink           : #e4757a;
+$blurple        : #927bc1;
+$green          : #63cc82;
+$orange         : #fd7856;
+
+
+// Breakpoints
+$break-m            : 768px;

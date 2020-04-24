@@ -1,0 +1,35 @@
+//=================================//
+//          Media Queries         //
+//===============================//
+
+@mixin center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@mixin flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin btn-colr($bkgnd) {
+    background-color: $bkgnd;
+    &:hover {
+      background-color: lighten($bkgnd, 15%);
+      cursor: pointer;
+    }
+    &:active {
+        opacity: initial;
+      }
+  }
+
+@mixin mq($break) {
+    @media (min-width: $break-m){
+    }
+}
