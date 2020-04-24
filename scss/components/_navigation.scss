@@ -15,23 +15,20 @@
       transition: 
         background-color .2s ease-in-out, 
         color .2s ease-in-out;
+    }
       &-link:hover {
         color: $white;
         background-color: $primary-color;
       }
-      @media (min-width: $break-m){
-          flex-direction: row;
-          justify-content: flex-end;
-          align-items: center;
-          &-link {
-            flex-basis: 100px;
+    @media (min-width: $break-m){
+      @include flex-row;
+      justify-content: flex-end;
+      align-items: center;
+      &-link {
+        flex-basis: 100px;
         }
       }
     }
-    
-
-    
-  }
   
 
   
